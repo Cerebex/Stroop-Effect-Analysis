@@ -7,8 +7,6 @@ import seaborn as sns
 data_file_name = 'stroopdata.csv'
 stroopdata = pd.read_csv(data_file_name)
 
-# print stroopdata
-
 #Histogram of Stroopdata Congruent distribution
 stroopdata.Congruent.hist(bins = 6)
 plt.title('Distribution of Congruent Test Times')
